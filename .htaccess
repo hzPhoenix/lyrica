@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^home$ /index.html [L]
+RewriteRule ^iletisim$ /iletisim.html	[L]
+RewriteRule ^hakkimda$ /hakkimda.html [L]
+DirectoryIndex ./home
